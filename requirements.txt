@@ -1,0 +1,9 @@
+ipython
+pandas
+pyarrow
+numpy
+setuptools
+typing
+mypy
+pandas-stubs
+ipdb

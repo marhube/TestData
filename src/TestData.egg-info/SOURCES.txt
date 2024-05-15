@@ -1,0 +1,10 @@
+pyproject.toml
+src/TestData/TestData.py
+src/TestData/__init__.py
+src/TestData/py.typed
+src/TestData.egg-info/PKG-INFO
+src/TestData.egg-info/SOURCES.txt
+src/TestData.egg-info/dependency_links.txt
+src/TestData.egg-info/requires.txt
+src/TestData.egg-info/top_level.txt
+tests/test_TestData.py
