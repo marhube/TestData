@@ -26,7 +26,7 @@ def create_nan_column(n: int) -> np.ndarray:
 
 def create_int_column(n: int, with_na: bool) -> pd.Series:
     """Creates an integer column with optional missing values."""
-    col = pd.Series(np.random.randint(0, 100, n), dtype="Int64")
+    col:pd.core.series.Series = pd.Series(np.random.randint(0, 100, n), dtype="Int64")
     if with_na:
         col[::3] = pd.NA
     return col
